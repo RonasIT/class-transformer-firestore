@@ -5,6 +5,7 @@ import {
 
 TransformOperationExecutor.prototype.transform = function (transform) {
   return function (source: any, value: any, targetType: any, arrayType: any, isMap: any, level: any) {
+    console.log(123213);
     if (value instanceof DocumentReference) {
       return value;
     }

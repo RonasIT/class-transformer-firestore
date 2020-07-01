@@ -28,11 +28,13 @@
     "url": "https://github.com/RonasIT/class-transformer-firestore/issues"
   },
   "homepage": "https://github.com/RonasIT/class-transformer-firestore#readme",
-  "dependencies": {
+  "peerDependencies": {
     "@google-cloud/firestore": "^4.0.0",
     "class-transformer": "^0.2.3"
   },
   "devDependencies": {
+    "@google-cloud/firestore": "^4.0.0",
+    "class-transformer": "^0.2.3",
     "typescript": "^3.9.5"
   }
 }
