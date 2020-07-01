@@ -1,0 +1,38 @@
+{
+  "name": "@ronas-it/class-transformer-firestore",
+  "version": "1.0.0",
+  "description": "Extends class-transformer",
+  "files": [
+    "lib/**/*"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonasIT/class-transformer-firestore.git"
+  },
+  "keywords": [
+    "class-transformer",
+    "typescript",
+    "firestore",
+    "firebase"
+  ],
+  "author": "Ronas IT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RonasIT/class-transformer-firestore/issues"
+  },
+  "homepage": "https://github.com/RonasIT/class-transformer-firestore#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^4.0.0",
+    "class-transformer": "^0.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
