@@ -30,11 +30,13 @@
   "homepage": "https://github.com/RonasIT/class-transformer-firestore#readme",
   "peerDependencies": {
     "@google-cloud/firestore": "^4.0.0",
-    "class-transformer": "^0.2.3"
+    "class-transformer": "^0.2.3",
+    "firebase": "^7.15.5"
   },
   "devDependencies": {
     "@google-cloud/firestore": "^4.0.0",
     "class-transformer": "^0.2.3",
+    "firebase": "^7.15.5",
     "typescript": "^3.9.5"
   }
 }
