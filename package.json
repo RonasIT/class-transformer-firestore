@@ -1,6 +1,6 @@
 {
   "name": "@ronas-it/class-transformer-firestore",
-  "version": "1.0.4",
+  "version": "1.0.5-frontend",
   "description": "Extends class-transformer",
   "files": [
     "lib/**/*"
