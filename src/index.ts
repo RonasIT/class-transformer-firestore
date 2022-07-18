@@ -1,16 +1,16 @@
 import { DocumentReference, Timestamp } from '@google-cloud/firestore';
-import firebase from 'firebase';
+import * as firebase from 'firebase/firestore';
 import {
   TransformOperationExecutor
-} from 'class-transformer/TransformOperationExecutor';
+} from 'class-transformer/cjs/TransformOperationExecutor';
 
 TransformOperationExecutor.prototype.transform = function (transform) {
   return function (source: any, value: any, targetType: any, arrayType: any, isMap: any, level: any) {
-    if (value instanceof DocumentReference || value instanceof firebase.firestore.DocumentReference) {
+    if (value instanceof DocumentReference || value instanceof firebase.DocumentReference) {
       return value;
     }
 
-    if (value instanceof Timestamp || value instanceof firebase.firestore.Timestamp) {
+    if (value instanceof Timestamp || value instanceof firebase.Timestamp) {
       return value.toDate();
     }
 
